@@ -1,0 +1,9 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://j8evn4k63eds"]
+
+[ext_resource type="Texture2D" uid="uid://dirphtoqv3h3c" path="res://textures/chairBack.png" id="1_pjhr4"]
+
+[resource]
+resource_name = "ChairBack"
+cull_mode = 2
+albedo_texture = ExtResource("1_pjhr4")
+roughness = 0.5

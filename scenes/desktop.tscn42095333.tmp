@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://0j4rjj2v753s"]
+
+[ext_resource type="Script" uid="uid://cu1l1xmvjroil" path="res://desktop.gd" id="1_my12u"]
+
+[sub_resource type="QuadMesh" id="QuadMesh_x0l4i"]
+
+[node name="Node3D" type="Node3D" unique_id=1693708324]
+script = ExtResource("1_my12u")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=2008657223]
+mesh = SubResource("QuadMesh_x0l4i")
+
+[node name="Camera3D" type="Camera3D" parent="." unique_id=1923387174]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1.7352035)

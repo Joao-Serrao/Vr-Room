@@ -1,0 +1,9 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://dvdbs5bpvxk17"]
+
+[ext_resource type="Texture2D" uid="uid://6hf6bxnrg6cr" path="res://textures/Computer_Material_16.png" id="1_j7s62"]
+
+[resource]
+resource_name = "Material.018"
+cull_mode = 2
+albedo_texture = ExtResource("1_j7s62")
+roughness = 0.82111454

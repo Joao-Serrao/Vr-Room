@@ -1,0 +1,10 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://bwbhr4jku12d3"]
+
+[ext_resource type="Texture2D" uid="uid://cux7k1eejhumn" path="res://textures/ButtonPanel.png" id="1_xbu7f"]
+
+[resource]
+resource_name = "BlackPlasticButtonPanel"
+cull_mode = 2
+albedo_color = Color(2.454227, 2.454227, 2.454227, 1)
+albedo_texture = ExtResource("1_xbu7f")
+emission = Color(0, 0.5176471, 0, 1)

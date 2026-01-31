@@ -1,0 +1,14 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://bxg5ow6fommom"]
+
+[ext_resource type="Texture2D" uid="uid://rnqbktlubdjc" path="res://textures/chairNet.png" id="1_fd2hp"]
+
+[resource]
+resource_name = "ChairBackNet"
+transparency = 2
+alpha_scissor_threshold = 0.05
+alpha_antialiasing_mode = 0
+blend_mode = 3
+cull_mode = 2
+albedo_color = Color(0, 0, 0, 1)
+albedo_texture = ExtResource("1_fd2hp")
+roughness = 0.5

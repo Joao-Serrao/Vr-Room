@@ -1,0 +1,7 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://bfwo52m1b5lhb"]
+
+[resource]
+resource_name = "grayShinyPlastic"
+cull_mode = 2
+albedo_color = Color(0.2934889, 0.2934889, 0.2934889, 1)
+roughness = 0.23181817

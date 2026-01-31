@@ -1,0 +1,8 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://d0dwswvylaeby"]
+
+[resource]
+resource_name = "WindowScrew"
+cull_mode = 2
+albedo_color = Color(0.075323105, 0.075323105, 0.075323105, 1)
+metallic = 0.52272725
+roughness = 0.7

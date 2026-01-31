@@ -1,0 +1,8 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://clmjo0u3igeu2"]
+
+[resource]
+resource_name = "NonShinyMetal"
+cull_mode = 2
+albedo_color = Color(0.3760891, 0.3760891, 0.3760891, 1)
+metallic = 0.5772727
+roughness = 0.5

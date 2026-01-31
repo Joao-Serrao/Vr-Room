@@ -1,0 +1,7 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://bqubt81qvl6ht"]
+
+[resource]
+resource_name = "metalik"
+cull_mode = 2
+metallic = 1.0
+roughness = 0.7763932

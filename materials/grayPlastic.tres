@@ -1,0 +1,6 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://duwgof2lt4q7m"]
+
+[resource]
+resource_name = "GreyPlastic"
+cull_mode = 2
+albedo_color = Color(0.3790611, 0.3790611, 0.3790611, 1)

@@ -1,0 +1,16 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://d1ojvnufr136l"]
+
+[ext_resource type="Texture2D" uid="uid://sxto8jm78mrt" path="res://textures/grayPlaster.png" id="1_78oqv"]
+[ext_resource type="Texture2D" uid="uid://o51ixjf40b6r" path="res://textures/beige_wall_001_rough_4k.png" id="2_78oqv"]
+[ext_resource type="Texture2D" uid="uid://wxvdsqck3v2r" path="res://textures/beige_wall_001_nor_gl_4k.png" id="3_2ew3j"]
+
+[resource]
+resource_name = "grayPlaster"
+cull_mode = 2
+albedo_texture = ExtResource("1_78oqv")
+metallic_texture = ExtResource("2_78oqv")
+metallic_texture_channel = 2
+roughness_texture = ExtResource("2_78oqv")
+roughness_texture_channel = 1
+normal_enabled = true
+normal_texture = ExtResource("3_2ew3j")

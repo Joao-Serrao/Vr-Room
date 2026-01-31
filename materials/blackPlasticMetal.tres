@@ -1,0 +1,9 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://cryr28b4aqda4"]
+
+[resource]
+resource_name = "BlackPasticMetal"
+cull_mode = 2
+albedo_color = Color(0.09024085, 0.09024085, 0.09024085, 1)
+metallic = 0.6
+metallic_specular = 0.61
+roughness = 0.4

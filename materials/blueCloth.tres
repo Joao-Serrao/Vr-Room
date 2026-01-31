@@ -1,0 +1,16 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://bvqiksgqhrlc5"]
+
+[ext_resource type="Texture2D" uid="uid://r5s06q8iehve" path="res://textures/terry_cloth_diff_2k.jpg" id="1_wrlfm"]
+[ext_resource type="Texture2D" uid="uid://j0jn12mxqrxy" path="res://textures/terry_cloth_rough_2k.png" id="2_wrlfm"]
+[ext_resource type="Texture2D" uid="uid://c4pqlv2327m3k" path="res://textures/terry_cloth_nor_gl_2k.png" id="3_xuhmb"]
+
+[resource]
+resource_name = "BlueCloth"
+cull_mode = 2
+albedo_texture = ExtResource("1_wrlfm")
+metallic_texture = ExtResource("2_wrlfm")
+metallic_texture_channel = 2
+roughness_texture = ExtResource("2_wrlfm")
+roughness_texture_channel = 1
+normal_enabled = true
+normal_texture = ExtResource("3_xuhmb")

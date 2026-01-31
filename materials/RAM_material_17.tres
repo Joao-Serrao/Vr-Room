@@ -1,0 +1,10 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://bsx7u4iht1nlf"]
+
+[ext_resource type="Texture2D" uid="uid://6hf6bxnrg6cr" path="res://textures/Computer_Material_16.png" id="1_2ypr6"]
+
+[resource]
+resource_name = "Material.017"
+cull_mode = 2
+albedo_texture = ExtResource("1_2ypr6")
+metallic = 0.73600227
+roughness = 0.82111454

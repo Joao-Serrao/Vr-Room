@@ -1,0 +1,10 @@
+[gd_resource type="ShaderMaterial" format=3 uid="uid://nloth3c2c4be"]
+
+[ext_resource type="Shader" uid="uid://cavm101035tih" path="res://shaders/keyboard.gdshader" id="1_hd5ut"]
+[ext_resource type="Texture2D" uid="uid://cd4pfic3nkv7w" path="res://textures/Logitech-G-logo.png" id="2_hd5ut"]
+
+[resource]
+render_priority = 0
+shader = ExtResource("1_hd5ut")
+shader_parameter/mask_texture = ExtResource("2_hd5ut")
+shader_parameter/glow_strength = 1.0000000475

@@ -1,0 +1,14 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://q5qpgygdwtdu"]
+
+[ext_resource type="Texture2D" uid="uid://c561t7375kcnh" path="res://textures/Computer_motherboard_baseColor.png" id="1_wua8m"]
+[ext_resource type="Texture2D" uid="uid://bqvbhyramaj2p" path="res://textures/Computer_motherboard_metallicRoughness.png" id="2_4gh4k"]
+
+[resource]
+resource_name = "motherboard"
+cull_mode = 2
+albedo_texture = ExtResource("1_wua8m")
+metallic = 1.0
+metallic_texture = ExtResource("2_4gh4k")
+metallic_texture_channel = 2
+roughness_texture = ExtResource("2_4gh4k")
+roughness_texture_channel = 1

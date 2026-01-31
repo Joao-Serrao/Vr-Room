@@ -1,0 +1,16 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://ddnc0gykl6s2j"]
+
+[ext_resource type="Texture2D" uid="uid://dyyxdth8t8cc4" path="res://textures/wood_floor_diff_4k.jpg" id="1_ljh0i"]
+[ext_resource type="Texture2D" uid="uid://8fa4r8q4a0jp" path="res://textures/wood_floor_rough_4k.png" id="2_ubx0j"]
+[ext_resource type="Texture2D" uid="uid://b0pwif42sem2c" path="res://textures/wood_floor_nor_gl_4k.png" id="3_knxmw"]
+
+[resource]
+resource_name = "floorPlanks"
+cull_mode = 2
+albedo_texture = ExtResource("1_ljh0i")
+metallic_texture = ExtResource("2_ubx0j")
+metallic_texture_channel = 2
+roughness_texture = ExtResource("2_ubx0j")
+roughness_texture_channel = 1
+normal_enabled = true
+normal_texture = ExtResource("3_knxmw")

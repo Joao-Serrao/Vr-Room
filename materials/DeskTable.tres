@@ -1,0 +1,13 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://ca5js51rwy2q"]
+
+[ext_resource type="Texture2D" uid="uid://buhyq3mvwhvk2" path="res://textures/DeskTable.png" id="1_inpph"]
+[ext_resource type="Texture2D" uid="uid://duguov13bc0qk" path="res://textures/desk_DeskTable.png" id="2_apkoy"]
+
+[resource]
+resource_name = "DeskTable"
+cull_mode = 2
+albedo_color = Color(0.09985284, 0.09985284, 0.09985284, 1)
+roughness_texture = ExtResource("2_apkoy")
+roughness_texture_channel = 2
+normal_enabled = true
+normal_texture = ExtResource("1_inpph")

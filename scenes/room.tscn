@@ -1,0 +1,93 @@
+[gd_scene format=3 uid="uid://m3kynotstr82"]
+
+[ext_resource type="PackedScene" uid="uid://bidkbpwucx7me" path="res://models/bed.scn" id="14_0tws2"]
+[ext_resource type="PackedScene" uid="uid://0bwu30caffqf" path="res://models/room_floor.scn" id="14_2ftkj"]
+[ext_resource type="PackedScene" uid="uid://673d16bv6k1p" path="res://models/desk.scn" id="14_2ulci"]
+[ext_resource type="PackedScene" uid="uid://d2maow7msbvhq" path="res://models/logitech.scn" id="14_3j2fx"]
+[ext_resource type="PackedScene" uid="uid://bvvup8weqwfue" path="res://models/computer01.scn" id="14_23wr2"]
+[ext_resource type="PackedScene" uid="uid://dacenjacd0e2e" path="res://models/top_normal.scn" id="14_a5qmg"]
+[ext_resource type="PackedScene" uid="uid://c7y8fu2haa47x" path="res://models/keyboard.scn" id="14_dynfe"]
+[ext_resource type="PackedScene" uid="uid://dabxkjh8pm0b8" path="res://models/radiator.scn" id="14_jxwrd"]
+[ext_resource type="PackedScene" uid="uid://cwtcov6b8m0kw" path="res://models/tv_01.scn" id="14_katsu"]
+[ext_resource type="PackedScene" uid="uid://1a3tum0rgg21" path="res://models/chair.scn" id="14_kk8bn"]
+[ext_resource type="PackedScene" uid="uid://qrgtpcvsviiq" path="res://models/top_thin.scn" id="14_mc3m6"]
+[ext_resource type="PackedScene" uid="uid://3s7itquni0dy" path="res://models/stand_bed.scn" id="14_spkk5"]
+[ext_resource type="PackedScene" uid="uid://b7s65nowqkhxx" path="res://models/mouse_pad.scn" id="14_vfrn5"]
+[ext_resource type="PackedScene" uid="uid://dqfjr4gfjgwbs" path="res://models/desk_top_screens.scn" id="14_yggoe"]
+
+[node name="Room" type="Node3D" unique_id=1839905260]
+
+[node name="Camera3D" type="Camera3D" parent="." unique_id=1560885116]
+transform = Transform3D(-0.9708805, 0.022616448, -0.23849478, 0.0035342986, 0.99677765, 0.08013668, 0.23953868, 0.07696022, -0.96783197, -1.8743634, 1.0499316, -1.1685429)
+
+[node name="OmniLight3D2" type="OmniLight3D" parent="." unique_id=518838006]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.308, 2.309, 1.073)
+light_color = Color(1, 1, 0.9411765, 1)
+shadow_enabled = true
+omni_range = 3.0
+omni_attenuation = 0.5
+
+[node name="OmniLight3D" type="OmniLight3D" parent="." unique_id=1729115972]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.565, 2.309, 1.073)
+light_color = Color(1, 1, 0.9411765, 1)
+shadow_enabled = true
+omni_range = 3.0
+omni_attenuation = 0.5
+
+[node name="OmniLight3D3" type="OmniLight3D" parent="." unique_id=1089905104]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.565, 2.309, 0)
+light_color = Color(1, 1, 0.9411765, 1)
+shadow_enabled = true
+omni_range = 3.0
+omni_attenuation = 0.5
+
+[node name="OmniLight3D4" type="OmniLight3D" parent="." unique_id=974017543]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.308, 2.309, 0)
+light_color = Color(1, 1, 0.9411765, 1)
+shadow_enabled = true
+omni_range = 3.0
+omni_attenuation = 0.5
+
+[node name="Computer" parent="." unique_id=1413108842 instance=ExtResource("14_23wr2")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -2.204, 0.737, 1.225)
+
+[node name="logitech" parent="." unique_id=219433696 instance=ExtResource("14_3j2fx")]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, -1.664, 0.727, 1.117)
+
+[node name="keyboard" parent="." unique_id=10898405 instance=ExtResource("14_dynfe")]
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, -1.31, 0.727, 1.148)
+
+[node name="mousePad" parent="." unique_id=1203941628 instance=ExtResource("14_vfrn5")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.498, 0.725, 1.058)
+
+[node name="TV01" parent="." unique_id=975363862 instance=ExtResource("14_katsu")]
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, -0.079, 0.79, 1.262)
+
+[node name="radiator" parent="." unique_id=595995636 instance=ExtResource("14_jxwrd")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.499, 0.106, 1.553)
+
+[node name="standBed01" parent="." unique_id=90739231 instance=ExtResource("14_spkk5")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.837, 0, -1.335)
+
+[node name="standBed02" parent="." unique_id=1153810577 instance=ExtResource("14_spkk5")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.238, 0, -1.335)
+
+[node name="DeskTopScreens" parent="." unique_id=1693708324 instance=ExtResource("14_yggoe")]
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, -1.435, 1.176, 1.267)
+
+[node name="desk" parent="." unique_id=422989313 instance=ExtResource("14_2ulci")]
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, -1.628, 0, 1.228)
+
+[node name="chair" parent="." unique_id=210119710 instance=ExtResource("14_kk8bn")]
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, -1.474, 0, 0.854)
+
+[node name="topThin" parent="." unique_id=481932788 instance=ExtResource("14_mc3m6")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.685, 0, -1.324)
+
+[node name="topNormal" parent="." unique_id=851631804 instance=ExtResource("14_a5qmg")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.074, 0, 1.25)
+
+[node name="bed" parent="." unique_id=1256026492 instance=ExtResource("14_0tws2")]
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, -0.162, 0, -1.551)
+
+[node name="roomFloor" parent="." unique_id=1900102454 instance=ExtResource("14_2ftkj")]

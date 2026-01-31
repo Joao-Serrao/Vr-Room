@@ -1,0 +1,9 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://bk5iturtwxset"]
+
+[ext_resource type="Texture2D" uid="uid://ctcxoh1k3tm3m" path="res://textures/chairTopPillow.png" id="1_kr1k8"]
+
+[resource]
+resource_name = "ChairTopPillow"
+cull_mode = 2
+albedo_texture = ExtResource("1_kr1k8")
+roughness = 0.5

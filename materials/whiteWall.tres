@@ -1,0 +1,16 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://dvgpq5ws3g8b6"]
+
+[ext_resource type="Texture2D" uid="uid://kqb67oo03uo1" path="res://textures/whiteWallDiff.png" id="1_3et5x"]
+[ext_resource type="Texture2D" uid="uid://o51ixjf40b6r" path="res://textures/beige_wall_001_rough_4k.png" id="2_1tdv4"]
+[ext_resource type="Texture2D" uid="uid://wxvdsqck3v2r" path="res://textures/beige_wall_001_nor_gl_4k.png" id="3_idx6i"]
+
+[resource]
+resource_name = "whiteWall"
+cull_mode = 2
+albedo_texture = ExtResource("1_3et5x")
+metallic_texture = ExtResource("2_1tdv4")
+metallic_texture_channel = 2
+roughness_texture = ExtResource("2_1tdv4")
+roughness_texture_channel = 1
+normal_enabled = true
+normal_texture = ExtResource("3_idx6i")

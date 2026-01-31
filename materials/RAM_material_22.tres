@@ -1,0 +1,12 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://c2b15wvdm3wnw"]
+
+[ext_resource type="Texture2D" uid="uid://dcjikrfga4qga" path="res://textures/Computer_Material_13.png" id="1_jqu7u"]
+
+[resource]
+resource_name = "Material.022"
+cull_mode = 2
+albedo_texture = ExtResource("1_jqu7u")
+emission_enabled = true
+emission = Color(0.42358288, 0.42358288, 0.42358288, 1)
+emission_operator = 1
+emission_texture = ExtResource("1_jqu7u")

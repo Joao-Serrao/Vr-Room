@@ -1,0 +1,6 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://4nhia2ddrj2w"]
+
+[resource]
+resource_name = "rubberFeet"
+cull_mode = 2
+albedo_color = Color(0.11355532, 0.11355532, 0.11355532, 1)

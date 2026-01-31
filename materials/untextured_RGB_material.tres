@@ -1,0 +1,8 @@
+[gd_resource type="ShaderMaterial" format=3 uid="uid://c7shp5md7n8xo"]
+
+[ext_resource type="Shader" uid="uid://cavm101035tih" path="res://shaders/keyboard.gdshader" id="1_24siw"]
+
+[resource]
+render_priority = 0
+shader = ExtResource("1_24siw")
+shader_parameter/glow_strength = 2.000000095

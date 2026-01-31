@@ -1,0 +1,10 @@
+[gd_resource type="ShaderMaterial" format=3 uid="uid://buno21pbjeqq8"]
+
+[ext_resource type="Shader" uid="uid://cavm101035tih" path="res://shaders/keyboard.gdshader" id="1_w2lle"]
+[ext_resource type="Texture2D" uid="uid://bji0a77kh1q43" path="res://textures/keyboard_Keys.png" id="2_w2lle"]
+
+[resource]
+render_priority = 0
+shader = ExtResource("1_w2lle")
+shader_parameter/mask_texture = ExtResource("2_w2lle")
+shader_parameter/glow_strength = 2.000000095

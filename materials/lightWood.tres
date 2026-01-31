@@ -1,0 +1,9 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://bglv7p7vv3duj"]
+
+[ext_resource type="Texture2D" uid="uid://buf4w73txulhw" path="res://textures/lightWood01.png" id="1_ii5l5"]
+
+[resource]
+resource_name = "LightWood"
+cull_mode = 2
+albedo_texture = ExtResource("1_ii5l5")
+roughness = 0.77272725
