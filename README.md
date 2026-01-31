@@ -214,7 +214,7 @@
 
 ##### \### Live Desktop Inside 3D Room Overview
 
-##### !\[Live Desktop Inside 3D Room Overview](images/runtime\_screenshit\_overview.png)
+##### !\[Live Desktop Inside 3D Room Overview](images/runtime\_screenshot\_overview.png)
 
 ##### 
 
