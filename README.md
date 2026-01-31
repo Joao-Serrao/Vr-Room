@@ -208,19 +208,19 @@
 
 ##### \### 3D Room Overview
 
-##### !\[3D Room Overview](images/full\_room\_overview.png)
+##### !\[3D Room Overview](full\_room\_overview.png)
 
 ##### 
 
 ##### \### Live Desktop Inside 3D Room Overview
 
-##### !\[Live Desktop Inside 3D Room Overview](images/runtime\_screenshit\_overview.png)
+##### !\[Live Desktop Inside 3D Room Overview](runtime\_screenshit\_overview.png)
 
 ##### 
 
 ##### \### Live Desktop Closeup
 
-##### !\[Live Desktop Closeup](images/runtime\_screenshot\_screen\_closeup.png)
+##### !\[Live Desktop Closeup](runtime\_screenshot\_screen\_closeup.png)
 
 
 
