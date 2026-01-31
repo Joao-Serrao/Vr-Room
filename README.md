@@ -120,3 +120,6 @@ VR hardware has not arrived yet, so VR-specific testing and implementation are c
 
 - **Computer Motherboard**  
   https://sketchfab.com/3d-models/msi-b550-gaming-plus-a7f6a35bca4a4d01a010a6b8ded6bc93
+
+- **Spout-gd Addon**
+  https://github.com/you-win/spout-gd
