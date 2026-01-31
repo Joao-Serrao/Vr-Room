@@ -208,7 +208,7 @@
 
 ##### \### 3D Room Overview
 
-##### !\[3D Room Overview](full\_room\_overview.png)
+##### !\[3D Room Overview](images/full\_room\_overview.png)
 
 ##### 
 
